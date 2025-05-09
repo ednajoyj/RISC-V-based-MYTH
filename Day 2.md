@@ -15,7 +15,6 @@ Applications Layer → Standard Libraries → Operating System (OS) → Instruct
 Each arrow represents an interface layer (APIs, ABIs/System Call Interface, ISAs, RTL).
 
 ![Screenshot from 2025-05-06 20-31-02](https://github.com/user-attachments/assets/fd002c77-34db-4e31-903f-a2126a042e03)
-> **Source/Credits:** Kunal Ghosh sir's RISC-V MYTH Course Content
 
 
 
@@ -56,8 +55,7 @@ int main() {
 }
 ```
 
-![Screenshot from 2025-05-06 18-23-12](https://github.com/user-attachments/assets/a741f4f2-944b-473e-a88c-c2cc36e76d88)
-
+<img width="678" alt="RV - lab day 2 (1)" src="https://github.com/user-attachments/assets/d6923b7e-4b37-4440-b8d9-552245748405" />
 
 
 **load.S**
