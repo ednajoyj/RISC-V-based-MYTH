@@ -38,44 +38,6 @@ To load the third double word (bytes 16–23) into register `x8` using base regi
 ld x8, 16(x23)
 ```
 
-### RV-D2SK1_L3: Load, Add, and Store Instructions
-#### Load Double Word (I-type)
-```assembly
-ld x8, 16(x23)
-```
-
-| immediate [31:20] | rs1 (x23) [19:15] | funct3 [14:12] | rd (x8) [11:7] | opcode (ld) [6:0] |
-|-------------------|-------------------|---------------|---------------|-------------------|
-
-
-
-#### Register-Register Add (R-type)
-```assembly
-add x8, x24, x8
-```
-
-| funct7 [31:25] | rs2 (x8) [24:20] | rs1 (x24) [19:15] | funct3 [14:12] | rd (x8) [11:7] | opcode (add) [6:0] |
-|---------------:|-----------------:|------------------:|--------------:|--------------:|------------------:|
-
-
-#### Store Double Word (S-type)
-```assembly
-sd x8, 8(x23)
-```
-
-| imm[11:5] [31:25] | rs2 (x8) [24:20] | rs1 (x23) [19:15] | funct3 [14:12] | imm[4:0] [11:7] | opcode (sd) [6:0] |
-|------------------:|-----------------:|------------------:|--------------:|---------------:|-----------------:|
-
-
-**Instruction Formats:**
-- **R-type**: Register-register (e.g., `add`).
-- **I-type**: Register and immediate (e.g., `ld`).
-- **S-type**: Store with register and immediate (e.g., `sd`).
-
-With 5 bits for each register field (`rs1`, `rs2`, `rd`), RISC-V supports **2^5 = 32 registers**.
-
----
-
 ## RV-D2SK2 - Lab Work: Custom Sum Algorithm in Assembly
 
 ### RV-D2SK2_L1: C Program with Assembly Function
