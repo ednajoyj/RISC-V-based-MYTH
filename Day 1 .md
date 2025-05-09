@@ -12,21 +12,7 @@
 1. Software stack:  
    - Applications → System Software → OS → High-level languages (C, C++, Java, VB) → Compiler → ISA → Assembler  
 2. Hardware flow:  
-   - RTL snippet (understands instructions like `add x6, x10, ...`) → Synthesized netlist → Physical design implementation.  
-3. Course outline:  
-   - Part 1: RISC-V ISA  
-   - Part 2: RTL & Synthesis of RISC-V CPU core (PicoRV32)  
-   - Part 3: Physical design implementation of PicoRV32  
-
-### RV_D1SK1_L3_Detailed Description of Course Content
-1. C program examples and compilation.  
-2. Instruction categories:  
-   - Base Integer Instructions (RV64I)  
-   - Pseudo instructions  
-   - Multiply extension (RV64M)  
-   - Floating-point extensions (RV64F & RV64D)  
-3. Application Binary Interface (ABI) registers (`a0`, `ra`, etc.).  
-4. Memory allocation & stack pointer usage (`a1`, `sp`, offsets).
+   - RTL snippet (understands instructions like `add x6, x10, ...`) → Synthesized netlist → Physical design implementation.    
 
 ---
 
@@ -54,11 +40,11 @@ Compile and run natively:
 gcc sum1ton.c
 ./a.out
 ```
-![Screenshot from 2025-05-03 20-18-19](https://github.com/user-attachments/assets/bf07b9f4-a880-4b08-a430-baa786e0c84b)
+<img width="491" alt="RV - lab day 1 (2)" src="https://github.com/user-attachments/assets/e0e6fd41-d715-4ec2-a5a2-cf0aa798f552" />
 
 
 ### RV_D1SK2_L2: RISC-V GCC Compile and Disassemble
-![Screenshot from 2025-05-03 20-59-34](https://github.com/user-attachments/assets/d9cbb72b-1da5-4ee0-9801-0b876537880a)
+<img width="566" alt="RV - lab day 1 (3) disassemble" src="https://github.com/user-attachments/assets/f356dc1f-b4ba-4b9e-8264-733f1650a469" />
 
 
 Compile for RISC-V:
@@ -66,13 +52,13 @@ Compile for RISC-V:
 riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 riscv64-unknown-elf-objdump -d sum1ton.o | less
 ```
-![Screenshot from 2025-05-03 20-59-48](https://github.com/user-attachments/assets/94455357-8888-4858-82f1-85b414028fa4)
-![Screenshot from 2025-05-03 20-59-58](https://github.com/user-attachments/assets/8938435d-fdc3-4e78-9eb8-593549647092)
+<img width="569" alt="RV - lab day 1 (4) disassemble" src="https://github.com/user-attachments/assets/e24e8bda-1924-4d15-9b24-047a6f413a71" />
+<img width="561" alt="RV - lab day 1 (5) disassemble" src="https://github.com/user-attachments/assets/a649f4f4-33ab-4ea0-add0-d42db7ae1f84" />
 
 
 - Searching in `main()` reveals ~15 instructions.
 
-![Screenshot from 2025-05-03 21-00-15](https://github.com/user-attachments/assets/ad4b39b8-a5fc-4622-83cf-3364c6284a14)
+<img width="561" alt="RV - lab day 1 (5) disassemble" src="https://github.com/user-attachments/assets/d98343d2-7173-4bbe-8a9f-1ddd01594644" />
 
 
 
