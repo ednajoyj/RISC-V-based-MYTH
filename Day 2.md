@@ -64,19 +64,18 @@ int main() {
     .global load
     .type load, @function
 load:
-    add a4, a0, zero      # a4 = a0
-    add a2, a0, a1        # a2 = a0 + a1
-    add a3, a0, zero      # a3 = a0 (loop counter)
+    add a4, a0, zero     
+    add a2, a0, a1        
+    add a3, a0, zero      
 loop:
-    add a4, a3, a4        # accumulate: a4 += a3
-    addi a3, a3, 1        # a3++
-    blt a3, a2, loop      # if a3 < a2, repeat
-    add a0, a4, zero      # move result to a0
-    ret                   # return
+    add a4, a3, a4       
+    addi a3, a3, 1        
+    blt a3, a2, loop      
+    add a0, a4, zero      
+    ret                  
 ```
 
-![Screenshot from 2025-05-06 18-23-30](https://github.com/user-attachments/assets/96aa2e30-1d15-492a-b7fb-fd85cf98d629)
-
+<img width="678" alt="RV - lab day 2 (2)" src="https://github.com/user-attachments/assets/15c3bc29-0842-4071-b16c-c615cd6bed9b" />
 
 ### RV-D2SK2_L2: Compilation and Simulation
 ```bash
