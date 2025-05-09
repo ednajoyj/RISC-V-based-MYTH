@@ -51,10 +51,10 @@ The circuit is constructed to enter a known state in response to a reset signal.
 
 #### Fibonacci Series LAB
 -Next value is sum of previous two: 1,1,2,3,5,8,13... { $num[31:0] = $reset ? 1 : >>1$num + >>2$num; }
-   ![Screenshot 2025-04-25 201816](https://github.com/user-attachments/assets/b460bcd1-4bc1-4f84-b962-9c7e092083f3)
-
+ <img width="959" alt="RV - lab day 3 (6) fibbanocci" src="https://github.com/user-attachments/assets/17435776-3fee-4dcc-9f1d-c5ebbcffac3a" />
+ 
 #### Counter LAB
-   ![Screenshot 2025-04-25 203201](https://github.com/user-attachments/assets/635ec6ff-ae17-44ef-b151-11518b9875f3)
+   <img width="960" alt="RV - lab day 3 (7) counter" src="https://github.com/user-attachments/assets/b11d38f9-6e3f-480e-bc0b-c05015c5d32a" />
 
 ### L2.  Sequential Calculator Lab
 Values in Verilog
@@ -62,7 +62,7 @@ eg: 16'hFO where 16 - 16-bits; h - hexadecimal; FO - value
    ![Screenshot 2025-04-25 212255](https://github.com/user-attachments/assets/34e5ae43-4bef-43de-b794-83e59d33b8a8)
    ![Screenshot 2025-04-27 145412](https://github.com/user-attachments/assets/e64896ec-025e-41e5-8478-22960a1e15c5)
 
------
+---
 
 ## 3)  Pipelined logic
 ### L1. Pipelined Logic And Re-Timing
