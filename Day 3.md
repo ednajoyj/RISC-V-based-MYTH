@@ -23,37 +23,23 @@
 - A **MUX (Multiplexer)** selects one of multiple inputs and forwards it to a single output based on control signals. It's like a data switch!
 - Its Verilog syntex is : assign f = s ? X1 : X2;
 
-**Navigation through Makerchip** 
-   ![Screenshot 2025-04-25 182522](https://github.com/user-attachments/assets/d9300c55-1184-4945-851d-d263a4ed85bc)
-
 ### L3.1  Labs for Cominational Logic
-**Example: Pythagores Theorem** 
-   ![Screenshot 2025-04-25 183421](https://github.com/user-attachments/assets/14a05137-fb1f-4f72-8c20-ed6936f7135b)
-
-
 #### Inverter
-   ![Screenshot 2025-04-25 190221](https://github.com/user-attachments/assets/677a4b24-733d-4fce-af75-3c5ebdcb37f5)
-
+<img width="960" alt="RV - lab day 3 (1) inverter" src="https://github.com/user-attachments/assets/9aaae375-841d-44b5-808a-01f31ec86ea9" />
 
 #### Other logic : Boolean operators ( && , || , ^ )
-   ![Screenshot 2025-04-25 192740](https://github.com/user-attachments/assets/c5d5b34b-f0af-4e3a-afdf-2d5ffaf2a299)
-
+   <img width="959" alt="RV - lab day 3 (2) boolean" src="https://github.com/user-attachments/assets/8bd7ce26-184f-4afb-8205-26cd5056a4b7" />
 
 ### L3.2  Vectors
 **Vectors of 5 bits**
-   ![Screenshot 2025-04-25 193430](https://github.com/user-attachments/assets/08a8dca7-9a5b-41e1-b6a7-f126eb7543ae)
-
+  <img width="960" alt="RV - lab day 3 (3) vector of 5 bits" src="https://github.com/user-attachments/assets/5926c1f5-91ad-4359-873f-e22c923f7823" />
+  
 ### L3.3  Mux
 **1.[ 2:0 ] Mux**
-   ![Screenshot 2025-04-25 193910](https://github.com/user-attachments/assets/3724e8b0-b5e4-4ff3-baf4-6740a54ea19f)
-
+<img width="960" alt="RV - lab day 3 (4) mux" src="https://github.com/user-attachments/assets/a7b7a7f6-b16f-4238-ab7a-0afc4f3a4f94" />
  
-**2. [ 7:0 ] Mux**
-   ![Screenshot 2025-04-25 194116](https://github.com/user-attachments/assets/f50a333a-bdd6-4de4-8928-f7d56a8daf40)
-
 ### L3.4  Combinational Calculator
-   ![Screenshot 2025-04-25 195741](https://github.com/user-attachments/assets/1595a276-9c26-45ae-892b-d627b0d84e03)
-
+   <img width="949" alt="RV - lab day 3 (5) combinational calci" src="https://github.com/user-attachments/assets/7dfe32f0-74d9-49f8-8822-7868e8d16490" />
 -----
 
 ## 2) Sequential Logic 
