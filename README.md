@@ -2,7 +2,6 @@
 
 Welcome to the **MYTH (Microprocessors for You in Thirty Hours)** Workshop repository — your gateway to understanding **RISC-V architecture** and **processor design** through hands-on experience and structured learning.
 
----
 
 ## 🧠 What You'll Learn
 
@@ -11,7 +10,6 @@ Welcome to the **MYTH (Microprocessors for You in Thirty Hours)** Workshop repos
 - 🧩 Understanding how a basic **RISC-V processor** functions
 - ⚙️ Practical experience with **hardware simulators** for RISC-V
 
----
 
 ## 🛠️ What's Coming Soon
 
@@ -20,7 +18,6 @@ Welcome to the **MYTH (Microprocessors for You in Thirty Hours)** Workshop repos
 - 🧾 **Code snippets** with comments and explanations  
 - 🔗 **Curated references and learning resources**
 
----
 
 ## ✨ Stay Curious
 
