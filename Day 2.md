@@ -78,30 +78,13 @@ loop:
 <img width="678" alt="RV - lab day 2 (2)" src="https://github.com/user-attachments/assets/15c3bc29-0842-4071-b16c-c615cd6bed9b" />
 
 ### RV-D2SK2_L2: Compilation and Simulation
-```bash
-# Compile C and assembly together
-riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o 1to9_custom.o 1to9_custom.c load.S
-```
-
-![Screenshot from 2025-05-06 18-25-53](https://github.com/user-attachments/assets/146d0500-0ed5-4473-8f3f-981897410e55)
-
 
 ```bash
 # Run on Spike simulator
 spike pk 1to9_custom.o
 ```
 
-![Screenshot from 2025-05-06 18-31-50](https://github.com/user-attachments/assets/160b8d0c-d608-4838-a5ff-31844569d73b)
-
-
-
-```bash
-# Disassemble and inspect
-riscv64-unknown-elf-objdump -d 1to9_custom.o | less
-```
-
-![Screenshot from 2025-05-06 18-35-46](https://github.com/user-attachments/assets/bd23afb6-5772-4939-90fc-6e67714da58b)
-
+<img width="404" alt="RV - lab day 2 (3)" src="https://github.com/user-attachments/assets/de8a1647-9cad-4cbd-8858-8f189be92646" />
 
 ---
 
@@ -116,8 +99,7 @@ In this lab, we run our C-generated program on a RISC-V CPU core written in Veri
    cd riscv_workshop_collaterals/labs
    ```
    
-![Screenshot from 2025-05-06 19-06-29](https://github.com/user-attachments/assets/06d2af57-c07a-4f82-8c38-5bc9f78b5275)
-
+<img width="583" alt="RV - lab day 2 (4)" src="https://github.com/user-attachments/assets/d9f1ad81-4ab5-4351-b794-b5a866b29d5a" />
 
 
 2. **Inspect and Prepare Files**  
@@ -128,12 +110,10 @@ In this lab, we run our C-generated program on a RISC-V CPU core written in Veri
    vim rv32im.sh        # Shell script to assemble and run tests
    ```
    *Snippet of testbench.v*
-![Screenshot from 2025-05-06 19-10-39](https://github.com/user-attachments/assets/f5525971-4207-4d8c-8984-ac41355e5f5a)
-
+<img width="580" alt="RV - lab day 2 (6) (testbench v)" src="https://github.com/user-attachments/assets/536d311d-c5fa-4780-9835-78fbd38da0df" />
 
     *Snippet of rv32im.sh*
-![Screenshot from 2025-05-06 19-31-47](https://github.com/user-attachments/assets/659359d7-df33-4df7-b71c-0337c6005bdd)
-
+<img width="579" alt="RV - lab day 2 (7) rv32im" src="https://github.com/user-attachments/assets/768e32db-7f38-4953-8f03-c17a8115b201" />
 
 4. **Run Verification Script**  
    ```bash
@@ -143,6 +123,5 @@ In this lab, we run our C-generated program on a RISC-V CPU core written in Veri
       
    This script compiles the CPU core and testbench with `iverilog`, runs the simulation, and displays outputs for analysis.
 
-![Screenshot from 2025-05-06 19-34-49](https://github.com/user-attachments/assets/9924f7f1-5bdf-445d-8944-392dfd64a932)
-
+<img width="442" alt="RV - lab day 2 (8)" src="https://github.com/user-attachments/assets/cf667b4a-22dd-46d4-986a-e19eb860a511" />
 
