@@ -40,6 +40,7 @@
  
 ### L3.4  Combinational Calculator
    <img width="949" alt="RV - lab day 3 (5) combinational calci" src="https://github.com/user-attachments/assets/7dfe32f0-74d9-49f8-8822-7868e8d16490" />
+   
 ---
 
 ## 2) Sequential Logic 
