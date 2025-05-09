@@ -68,8 +68,6 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 ```bash
 riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 ```
-- Now only ~12 instructions in `main()`.
-![Screenshot from 2025-05-03 21-01-08](https://github.com/user-attachments/assets/37b880ee-011b-4508-ac5a-6b53d67f78fa)
 
 
 ### RV_D1SK2_L3: Spike Simulation and Debug
@@ -77,7 +75,7 @@ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
   ```bash
   spike pk sum1ton.o
   ```
-![Screenshot from 2025-05-03 21-02-44](https://github.com/user-attachments/assets/f5945693-c427-4a25-a514-4a86efc5bae2)
+<img width="370" alt="RV - lab day 1 (8) simulate and debug" src="https://github.com/user-attachments/assets/54eaceaf-fb40-437e-ab27-c119929fa6e7" />
 
 
 - Start Spike debugger:
@@ -89,11 +87,8 @@ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
   :until pc 0x0100b0   # Stop before main()
   :reg a2             # View register a2
   ```
-- Common instructions:
-  - `lui a0, %hi(.LC1)`
-  - `addi a0, a0, %lo(.LC1)`
  
-![Screenshot from 2025-05-03 21-07-27](https://github.com/user-attachments/assets/9c7f11de-8ca4-41ad-807d-30f0579d828e)
+<img width="373" alt="RV - lab day 1 (7) simulate and debug" src="https://github.com/user-attachments/assets/de8b8df0-3d46-46f9-a8f8-8ebfd73b9c99" />
 
 
 ---
@@ -109,12 +104,4 @@ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
   1. Binary representation.
   2. Invert bits (1's complement).
   3. Add 1.
-
-### RV_D1SK3_L3: Lab for Signed and Unsigned Numbers
-
-| Data Type                | Memory (Bytes) | Format Specifier |
-|--------------------------|----------------|------------------|
-| `unsigned int`           | 4              | `%u`             |
-| `int`                    | 4              | `%d`             |
-| `unsigned long long int` | 8              | `%llu`           |
-| `long long int`          | 8              | `%lld`           |
+---
