@@ -60,7 +60,7 @@ The circuit is constructed to enter a known state in response to a reset signal.
 Values in Verilog
 eg: 16'hFO where 16 - 16-bits; h - hexadecimal; FO - value 
    ![Screenshot 2025-04-25 212255](https://github.com/user-attachments/assets/34e5ae43-4bef-43de-b794-83e59d33b8a8)
-   ![Screenshot 2025-04-27 145412](https://github.com/user-attachments/assets/e64896ec-025e-41e5-8478-22960a1e15c5)
+ <img width="960" alt="RV - lab day 3 (8) sequesntial calculator" src="https://github.com/user-attachments/assets/74089335-9fa1-4d91-a8e2-f03c1cbc1d95" />
 
 ---
 
