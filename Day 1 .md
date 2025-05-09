@@ -53,7 +53,6 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 riscv64-unknown-elf-objdump -d sum1ton.o | less
 ```
 <img width="569" alt="RV - lab day 1 (4) disassemble" src="https://github.com/user-attachments/assets/e24e8bda-1924-4d15-9b24-047a6f413a71" />
-<img width="561" alt="RV - lab day 1 (5) disassemble" src="https://github.com/user-attachments/assets/a649f4f4-33ab-4ea0-add0-d42db7ae1f84" />
 
 
 - Searching in `main()` reveals ~15 instructions.
@@ -63,7 +62,7 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 
 
 - With `-Ofast` optimization:
-![Screenshot from 2025-05-03 21-00-43](https://github.com/user-attachments/assets/d77d38a5-3fb1-4247-87a7-d7b5bda559f4)
+<img width="562" alt="RV - lab day 1 (6) dissasemble" src="https://github.com/user-attachments/assets/6dda7d6e-d555-4b55-9e84-3c605327fcc4" />
 
 
 ```bash
