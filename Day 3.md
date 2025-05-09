@@ -72,7 +72,6 @@ eg: 16'hFO where 16 - 16-bits; h - hexadecimal; FO - value
 ### L2. Pipeline Logic Advantages And Demo In Platform
 - Pipeline logic enhances efficiency by breaking tasks into stages, enabling parallel execution.
 - It speeds up processing, optimizes resource use, reduces latency, improves scalability, and supports automation in workflows.
-   ![Screenshot 2025-04-27 124530](https://github.com/user-attachments/assets/008f894c-974b-4b00-bf2f-3d250210bb9b) 
 
 ### L3. Lab On Error Conditions Within Computation Pipeline
 - **Identifier Type Determination** – The type of an identifier is defined by its symbol prefix and case/delimitation style.
@@ -89,25 +88,23 @@ eg: 16'hFO where 16 - 16-bits; h - hexadecimal; FO - value
    - `$bad_name_5` is invalid
 - **Numeric Identifiers:**  
    - `>>1` represents "ahead by 1".
-   ![Screenshot 2025-04-25 225504](https://github.com/user-attachments/assets/be75aae1-7ecb-4fb9-9a8c-fa91941e9e93)
+<img width="960" alt="RV - lab day 3 (9) error condition within computation pipeline" src="https://github.com/user-attachments/assets/c0370541-8a6b-4f67-8931-8bcaca4c1393" />
 
 ### L4. Lab On 2-Cycle Calculator
 
-  ![Screenshot 2025-04-25 230058](https://github.com/user-attachments/assets/23c5ac98-b9bd-4919-ac31-613a3300c0e4)
+<img width="960" alt="RV - lab day 3 (11) 2 cycle calculator1" src="https://github.com/user-attachments/assets/ece750da-0495-472b-8881-1527612d3cff" />
 
-----
+---
 
 ## 4)  Validity
 ### L1. Introduction To Validity And Its Advantages
 ### L2. Lab On Validity And Valid When Condition
 
-  ![Screenshot 2025-04-30 195005](https://github.com/user-attachments/assets/e6ea3585-cf81-46ca-8374-5ac6ce314db9)
-
+<img width="960" alt="RV - lab day 3 (12) validity" src="https://github.com/user-attachments/assets/e83d2acc-f972-4182-ba76-7a857c858e3d" />
 
 ### L3. Lab To Compute Total Distance
 
-  ![Screenshot 2025-04-25 232757](https://github.com/user-attachments/assets/06ddb65a-4f68-473b-8b7e-0188628df2c4)
-
+<img width="960" alt="RV - lab day 3 (13) compute total distance" src="https://github.com/user-attachments/assets/75ab5bff-d809-4dba-913b-d00004487540" />
 
 ### L4. Lab on 2-cycle Calculator with Validity
 
@@ -115,4 +112,4 @@ eg: 16'hFO where 16 - 16-bits; h - hexadecimal; FO - value
 
 ### L5. Calulator Single Value Memory Lab
 
-  ![Screenshot 2025-04-25 232410](https://github.com/user-attachments/assets/3a9b6863-ab94-428e-99aa-735a7b2f43f6)
+<img width="960" alt="RV - lab day 3 (15) calculator single value memory" src="https://github.com/user-attachments/assets/52dafcd5-4348-47ae-84ad-9aee038a9124" />
