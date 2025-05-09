@@ -17,7 +17,7 @@
 
    ![Screenshot 2025-04-25 173724](https://github.com/user-attachments/assets/8b003fb5-b129-4331-b1c3-59c4c27970ca)
 
-------
+---
 
 ### L2. Basic Mux Implementation And Introduction To Makerchip
 - A **MUX (Multiplexer)** selects one of multiple inputs and forwards it to a single output based on control signals. It's like a data switch!
@@ -40,7 +40,7 @@
  
 ### L3.4  Combinational Calculator
    <img width="949" alt="RV - lab day 3 (5) combinational calci" src="https://github.com/user-attachments/assets/7dfe32f0-74d9-49f8-8822-7868e8d16490" />
------
+---
 
 ## 2) Sequential Logic 
 ### L1.  Introduction to Sequential Logic and Counter Lab 
